@@ -19,6 +19,11 @@
 
     <keyStore id="defaultKeyStore" password="yourPassword" />
 
+    <variable name="default.http.port" defaultValue="9080"/>
+    <variable name="default.https.port" defaultValue="9443"/>
+    <variable name="app.context.root" defaultValue="/daytrader10"/>
+
+
     <!--<logging traceSpecification="daytrader=fine"/>-->
 
     <!-- allow reuse of 'busy' ports for fast server recycling on linux (where ports remain blocked for up to 2 mins after server stops) ${tradelite.http.port} set in bootstrap.properties -->
