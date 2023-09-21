@@ -33,7 +33,7 @@
 
     <jdbcDriver id="DB2JCC" libraryRef="DB2JCCLib"/>
     <library id="DB2JCCLib" filesetRef="DB2JCCFileset"/>
-    <fileset id="DB2JCCFileset" dir="${shared.resource.dir}/db2jars" includes="db2jcc4.jar"/>
+    <fileset id="DB2JCCFileset" dir="/config/db2jars" includes="db2jcc4.jar"/>
 
     <authData id="TradeDataSourceAuthData" user="${env.dbUser}" password="${env.dbPass}"/>
     <authData id="TradeAdminAuthData" user="${env.dbUser}" password="${env.dbPass}"/>
