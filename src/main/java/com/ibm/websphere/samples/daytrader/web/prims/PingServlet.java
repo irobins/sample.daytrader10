@@ -77,7 +77,7 @@ public class PingServlet extends HttpServlet {
             // java.io.PrintWriter out = res.getWriter();
             hitCount++;
             out.println("<html><head><title>Ping Servlet</title></head>"
-                    + "<body><HR><BR><FONT size=\"+2\" color=\"#000066\">Ping Servlet<BR></FONT><FONT size=\"+1\" color=\"#000066\">Init time : " + initTime
+                    + "<body><HR><BR><FONT size=\"+2\" color=\"#000066\">AppFlow Servlet<BR></FONT><FONT size=\"+1\" color=\"#000066\">Init time : " + initTime
                     + "<BR><BR></FONT>  <B>Hit Count: " + hitCount + "</B></body></html>");
         } catch (Exception e) {
             Log.error(e, "PingServlet.doGet(...): general exception caught");
